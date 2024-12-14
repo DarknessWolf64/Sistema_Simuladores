@@ -72,11 +72,11 @@ def enviar_correo_con_html_externo(remitente, contraseña, destino, ruta_carpeta
 
 # Configuración de la base de datos
 DB_CONFIG = {
-    "host": "bq0mt2sx0xwuspiakt7o-mysql.services.clever-cloud.com",
+    "host": "asdadssadsadasddassadadsadsdassadadsadsasd",
     "port": 3306,
-    "user": "usiaqbsxnbof9apu",
-    "password": "xYlmNAqdzEJ4Rw6ZMuBn",
-    "database": "bq0mt2sx0xwuspiakt7o"
+    "user": "sdadssadsadad",
+    "password": "adasdad",
+    "database": "asdasdadad"
 }
 
 # Inicializar la aplicación Flask
@@ -89,7 +89,7 @@ nombre_archivo = "mensaje.html"  # Cambia esto al nombre de tu archivo HTML
 
 # Configuración del remitente y contraseña
 remitente = "hernadezken123@gmail.com"
-contraseña = "dajj dtni koac bacs"  # Reemplaza esto por la contraseña de aplicación de Google
+contraseña = "asdaasdasdasddadsaasasasdasdadasdadasdsadasd"  # Reemplaza esto por la contraseña de aplicación de Google
 
 # Crear conexión global a la base de datos
 def get_db_connection():
