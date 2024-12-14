@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.pin-box {
+    width: 320px;
+    height: 290px;
+    background: #0D283B;
+    border-radius: 10px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.logo-frame {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: -110px auto 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-frame img {
+    width: 50px;
+    height: 70px;
+}
+
+.pin-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.pin-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.pin-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pin-box input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.pin-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4E6580;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pin-box input[type="submit"]:hover {
+    background: #7692b2;
+}
+
+.pin-box .enlace {
+    text-align: center;
+}
+
+.enlace span{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgrey;
+    margin-left: -5px;
+}
+
+.pin-box a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b6d2f2;
+}
+
+.pin-box a:hover {
+    color: #fff;
+}

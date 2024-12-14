@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar PIN | Valking</title>
+    <link rel="stylesheet" href="static/css/pin.css">
+</head>
+<body>
+    <div class="pin-box">
+        <div class="logo-frame">
+            <img src="static/imagenes/Logo Ala.jpg" alt="logo de ala">
+        </div>
+        <h1>Validar PIN</h1>
+        <form method="POST">
+            <!-- Mostrar el correo al que se le envió el PIN -->
+            <label for="correo">Correo de envío:</label>
+            <input type="text" id="correo" name="correo" value="{{ correo }}" readonly>
+
+            <!-- PIN INPUT -->
+            <input type="text" placeholder="Introduce el PIN" id="pin" name="pin" maxlength="6" required>
+
+            <!-- SUBMIT BUTTON -->
+            <input type="submit" value="Validar PIN">
+
+            <!-- ENLACE PARA REENVIAR EL PIN -->
+            <div class="enlace">
+                <span>¿No recibiste el PIN?</span>
+                <a href='/reenvio/{{ correo }}'>Reenviar PIN</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
